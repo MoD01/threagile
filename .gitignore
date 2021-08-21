@@ -25,3 +25,4 @@ stats.json
 
 # IDE stuff
 .idea/
+OUTPUT/*
