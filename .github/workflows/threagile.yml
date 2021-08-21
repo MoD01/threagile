@@ -34,6 +34,5 @@ jobs:
             registry-username: ${{ secrets.REGISTRY_USERNAME }}
             registry-password: ${{ secrets.REGISTRY_PASSWORD }}
             ports: 8080:80
-            command-line: /bin/bash whoami
             name: aci-sampleapp
             location: 'west us'
