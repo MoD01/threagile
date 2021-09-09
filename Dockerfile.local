@@ -63,5 +63,7 @@ ENV PATH=/app:$PATH
 ENV GIN_MODE=release
 
 ENTRYPOINT ["/app/threagile"]
-CMD ["-help"]
+#CMD ["-help"]
 CMD ["-server int"]
+
+
