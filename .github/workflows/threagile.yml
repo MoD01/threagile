@@ -61,6 +61,6 @@ jobs:
               git config --local user.name "Threagile" # customize as desired
               git add threagile/output/report.pdf
               git add threagile/output/data-flow-diagram.png
-              git commit -m "Update threat model report and data-flow diagram by Threagile" # customize as desired
+              git commit -m "Update threat model report and data-flow diagram by Threagile" -f # customize as desired
               git push
           
