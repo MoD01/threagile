@@ -45,7 +45,7 @@ jobs:
         - name: 'Run Threagile'
           uses: 'threagile/run-threagile-action@v1'
           with:
-            mode-file: 'threagile-example-model-test.yaml'
+            model-file: 'threagile-example-model-test.yaml'
             
         # Archive resulting files as artifacts
         - name: Archive Results
